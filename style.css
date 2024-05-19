@@ -1,0 +1,17 @@
+*,*::before,*::after{margin: 0px;padding: 0px;box-sizing: border-box;outline: none; font-family: calibri;}
+html{font-size: 62.5%;}
+body{font-size: 1.6rem;}
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #6da46f;
+}
+#calculator{
+    background-color:#e2e2e2;
+    padding: 100px;
+}
+input{border:none;padding:5px;}
+input[type="number"]{width:450px;}
+input[type="button"]{background-color: #0009ff;color:#0009ff;color:#fff;}
